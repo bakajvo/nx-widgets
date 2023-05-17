@@ -4,11 +4,34 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "nx": "16.2.1"
+    "@nx/js": "16.2.1",
+    "@nx/react": "^16.2.1",
+    "@nx/vite": "16.2.1",
+    "@originjs/vite-plugin-federation": "^1.2.2",
+    "@testing-library/react": "14.0.0",
+    "@types/node": "18.14.2",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@vitejs/plugin-react": "^3.0.0",
+    "@vitest/coverage-c8": "^0.31.0",
+    "@vitest/ui": "^0.31.0",
+    "jsdom": "~20.0.3",
+    "nx": "16.2.1",
+    "prettier": "^2.6.2",
+    "typescript": "~5.0.2",
+    "vite": "^4.3.4",
+    "vite-plugin-dts": "~1.7.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-tsconfig-paths": "^4.0.2",
+    "vitest": "^0.31.0"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "apps/*",
+    "libs/*"
+  ],
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
 }

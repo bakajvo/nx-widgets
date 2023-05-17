@@ -1,0 +1,1 @@
+export const useSayHello = () => console.log('Hello');

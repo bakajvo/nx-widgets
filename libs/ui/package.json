@@ -1,0 +1,11 @@
+{
+  "name": "@bakaj/ui",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 3000 --strictPort",
+    "serve": "vite preview --port 3000 --strictPort"
+  }
+}
